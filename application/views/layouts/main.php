@@ -9,7 +9,9 @@
 		<link rel="stylesheet" href="/public/webix/style.css">
 
 		<!-- The app's logic -->
-		<script type="text/javascript" src="/public/webix/app.js"></script>
+
+		<script type="text/javascript" src="/public/webix/app/base.js"></script>
+		<script type="text/javascript" src="/public/webix/app/run.js"></script>
 
 	</head>
     

@@ -11,7 +11,7 @@ html,body{height: 100%; width: 100%;}
 .loginMain{float: right; position: relative; width: 40%; height: 100%; background: #fff;}
 .loginWidth{width: 500px; height: 500px; position: absolute; left: 50%; top: 50%; margin-left: -250px; margin-top: -200px;}
 .loginLogoDiv{width: 310px; height: 50px; margin: 0 auto;}
-.loginLogo{display: block; width: 195px; height: 50px; background: url(../images/logo.png) no-repeat;}
+.loginLogo{display: block; width: 195px; height: 50px; background: url(../images/loginlogo.png) no-repeat;}
 
 .formLogin{width: 310px; padding-top: 40px; margin: 0 auto;}
 .loginList{position: relative; height: 38px; line-height: 38px; width: 260px; padding: 2px 18px 2px 32px; margin-bottom: 16px; border-bottom: 1px solid #e7e7e7;}

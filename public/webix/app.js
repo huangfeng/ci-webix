@@ -583,7 +583,8 @@ define("helpers/menu", [], function() {
     "undefined" != typeof module && module.exports ? module.exports = t : e.Polyglot = t
 }(this), 
 
-define("libs/polyglot", function() {}), define("models/user", [], function() {
+define("libs/polyglot", function() {}), 
+define("models/user", [], function() {
     function e(e, t) {
         if (!e) return session.logout().then(function() {
             a = null, document.location.reload()

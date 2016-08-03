@@ -20,6 +20,6 @@ class Welcome extends XY_Controller {
 	 */
 	public function index()
 	{
-		$this->layout->view('welcome_message');
+		$this->load->view('welcome_message');
 	}
 }
