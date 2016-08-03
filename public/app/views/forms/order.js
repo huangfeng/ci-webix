@@ -1,4 +1,4 @@
-define("views/forms/order", [], function() {
+define([], function() {
     return {
         $ui: {
             view: "window",

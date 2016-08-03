@@ -1,4 +1,4 @@
-define("views/modules/edittree", ["models/files", "views/webix/editable", "views/webix/filetree"], function(e) {
+define(["models/files", "views/webix/editable", "views/webix/filetree"], function(e) {
     var t = {
         id: "fileTree",
         view: "edittree",

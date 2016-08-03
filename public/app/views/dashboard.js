@@ -1,4 +1,4 @@
-define("views/dashboard", ["views/modules/dashline", "views/modules/visitors", "views/modules/orders", "views/modules/messages", "views/modules/revenue", "views/modules/tasks"], function(e, t, i, a, n, r) {
+define(["views/modules/dashline", "views/modules/visitors", "views/modules/orders", "views/modules/messages", "views/modules/revenue", "views/modules/tasks", "views/modules/map"], function(e, t, i, a, n, r, o) {
     var s = {
         type: "clean",
         rows: [e, {
@@ -12,7 +12,7 @@ define("views/dashboard", ["views/modules/dashline", "views/modules/visitors", "
                 cols: [a, n]
             }, {
                 type: "wide",
-                cols: [r]
+                cols: [r, o]
             }]
         }]
     };

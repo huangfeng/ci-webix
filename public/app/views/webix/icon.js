@@ -1,4 +1,4 @@
-define("views/webix/icon", function() {})
+define( function() {})
 
 webix.protoUI({name: "icon",
     $skin: function() {

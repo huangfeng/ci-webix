@@ -1,4 +1,4 @@
-define("views/modules/product_upload", [], function() {
+define([], function() {
     return {
         $ui: {
             id: "imagesView",

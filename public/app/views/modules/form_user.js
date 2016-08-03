@@ -1,4 +1,4 @@
-define("views/modules/form_user", [], function() {
+define([], function() {
     var e = {
         type: "clean",
         rows: [{

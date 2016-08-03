@@ -1,4 +1,4 @@
-define("views/modules/taskschart", [], function() {
+define([], function() {
     var e = {
         view: "chart",
         type: "barH",

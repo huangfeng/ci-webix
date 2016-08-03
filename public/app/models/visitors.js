@@ -1,4 +1,4 @@
-define("models/visitors", [], function() {
+define([], function() {
     var e = [{
         id: 1,
         month: "Jun",

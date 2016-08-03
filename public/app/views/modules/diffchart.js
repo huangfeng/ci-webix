@@ -1,4 +1,4 @@
-define("views/modules/diffchart", [], function() {
+define([], function() {
     var e = {
         gravity: 3,
         type: "clean",

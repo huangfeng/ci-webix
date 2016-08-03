@@ -1,11 +1,13 @@
 define( ["views/menus/search", "views/menus/mail", "views/menus/message", "views/menus/profile", "views/menus/sidebar", "views/webix/icon", "views/webix/menutree"], function(e, t, i, a, n) {
     var r = {
         view: "toolbar",
-        elements: [{
+        elements: [
+        {
             view: "label",
             label: "<a href='"+BASE_URL+"'><img class='photo' src='public/images/logo.png' /></a>",
             width: 200
-        }, {
+        }, 
+        {
             height: 46,
             id: "person_template",
             css: "header_person",
@@ -19,18 +21,22 @@ define( ["views/menus/search", "views/menus/mail", "views/menus/message", "views
                 var t = "<div style='height:100%;width:100%;' onclick='webix.$$(\"profilePopup\").show(this)'>";
                 return t += "<img class='photo' src='public/images/photo/" + e.id + ".png' /><span class='name'>" + e.name + "</span>", t += "<span class='webix_icon fa-angle-down'></span></div>"
             }
-        }, {}, {
+        }, 
+        {}, 
+        {
             view: "icon",
             icon: "search",
             width: 45,
             popup: "searchPopup"
-        }, {
+        }, 
+        {
             view: "icon",
             icon: "envelope-o",
             value: 3,
             width: 45,
             popup: "mailPopup"
-        }, {
+        }, 
+        {
             view: "icon",
             icon: "comments-o",
             value: 5,

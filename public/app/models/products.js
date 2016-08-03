@@ -1,4 +1,4 @@
-define("models/products", [], function() {
+define([], function() {
     for (var e = 150, t = [], i = 201, a = 0; e > a; a++) {
         var n = Math.floor(4 * Math.random()),
             r = Math.floor(1001 * Math.random()) + 499,

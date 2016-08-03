@@ -1,4 +1,4 @@
-define("views/modules/visitors", ["models/visitors"], function(e) {
+define(["models/visitors"], function(e) {
     return {
         $ui: {
             type: "clean",

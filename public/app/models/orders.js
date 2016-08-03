@@ -1,4 +1,4 @@
-define("models/orders", [], function() {
+define([], function() {
     var e = [{
         id: 1,
         date: "2014-03-20",

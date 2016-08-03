@@ -1,4 +1,4 @@
-define("views/webix/menutree", function() {});
+define( function() {});
 
 webix.type(webix.ui.tree, {
     name: "menuTree",

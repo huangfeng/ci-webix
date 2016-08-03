@@ -1,4 +1,4 @@
-define("views/menus/profile", [], function() {
+define( [], function() {
     return {
         $ui: {
             view: "submenu",

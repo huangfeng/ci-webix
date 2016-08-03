@@ -1,4 +1,4 @@
-define("views/products", ["views/modules/editor", "views/modules/topsales", "models/products"], function(e, t, i) {
+define( ["views/modules/editor", "views/modules/topsales", "models/products"], function(e, t, i) {
     var a = {
         id: "productsData",
         view: "datatable",

@@ -1,4 +1,4 @@
-define("views/modules/chart_diff", [], function() {
+define([], function() {
     function e(e, t) {
         for (var i = 0, a = 0; a < t.length; a++) i += parseFloat(t[a].sales) || 0, i += parseFloat(t[a].sales2) || 0;
         return t.length ? i / (2 * t.length) : 0

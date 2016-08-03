@@ -1,4 +1,4 @@
-define("views/modules/form_style", [], function() {
+define([], function() {
     var e = {
         type: "clean",
         rows: [{

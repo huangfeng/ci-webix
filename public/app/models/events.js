@@ -1,4 +1,4 @@
-define("models/events", [], function() {
+define([], function() {
     var e = webix.Date.weekStart(new Date),
         t = webix.Date.monthStart(new Date),
         i = webix.Date.dayStart(new Date),

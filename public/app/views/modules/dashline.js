@@ -1,4 +1,4 @@
-define("views/modules/dashline", [], function() {
+define([], function() {
     return {
         $ui: {
             height: 136,

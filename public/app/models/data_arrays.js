@@ -1,4 +1,4 @@
-define("models/data_arrays", [], function() {
+define( [], function() {
     var e = [{
             id: 1,
             code: "NWTB-1",

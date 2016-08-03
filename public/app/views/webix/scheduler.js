@@ -1,4 +1,4 @@
-define("views/webix/scheduler", function() {});
+define(function() {});
 
 webix.protoUI({name: "dhx-scheduler",
     defaults: {

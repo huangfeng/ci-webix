@@ -1,4 +1,4 @@
-define("views/product_edit", ["views/modules/product_search", "views/modules/editor", "views/modules/product_upload", "views/modules/product_meta"], function(e, t, i, a) {
+define( ["views/modules/product_search", "views/modules/editor", "views/modules/product_upload", "views/modules/product_meta"], function(e, t, i, a) {
     var n = {
         type: "space",
         rows: [{

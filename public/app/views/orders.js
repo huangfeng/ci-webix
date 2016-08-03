@@ -1,4 +1,4 @@
-define("views/orders", ["views/forms/order", "views/menus/export", "models/orders"], function(e, t, i) {
+define(["views/forms/order", "views/menus/export", "models/orders"], function(e, t, i) {
     var a = [{
             view: "button",
             type: "iconButton",

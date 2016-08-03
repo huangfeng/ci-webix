@@ -1,4 +1,4 @@
-define("views/modules/messages", [], function() {
+define([], function() {
     var e = {
         template: "<span class='webix_icon fa-comments-o'></span>Messages",
         css: "sub_title",

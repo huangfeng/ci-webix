@@ -1,1 +1,4 @@
-define("views/webix/editable", function() {})
+define(function() {});
+
+webix.protoUI({name: "edittree"
+}, webix.EditAbility, webix.ui.tree)

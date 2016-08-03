@@ -1,4 +1,4 @@
-define("views/modules/data_progress", ["models/data_arrays"], function(e) {
+define(["models/data_arrays"], function(e) {
     var t = {
         view: "toolbar",
         css: "highlighted_header header4",

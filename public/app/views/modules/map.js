@@ -1,4 +1,4 @@
-define("views/modules/map", ["views/webix/googlemap"], function() {
+define(["views/webix/googlemap"], function() {
     var e = {
         rows: [{
             template: "<span class='webix_icon fa-map-marker'></span>Events Map",

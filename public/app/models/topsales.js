@@ -1,4 +1,4 @@
-define("models/topsales", [], function() {
+define([], function() {
     var e = [{
         productId: 1,
         value: 15e3,

@@ -1,4 +1,4 @@
-define("views/modules/product_search", ["models/products"], function(e) {
+define(["models/products"], function(e) {
     return {
         $ui: {
             rows: [{

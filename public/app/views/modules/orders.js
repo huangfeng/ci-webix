@@ -1,4 +1,4 @@
-define("views/modules/orders", [], function() {
+define([], function() {
     return {
         $ui: {
             type: "clean",

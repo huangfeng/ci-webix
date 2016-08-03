@@ -1,4 +1,4 @@
-define("views/modules/product_meta", [], function() {
+define([], function() {
     return {
         $ui: {
             view: "form",

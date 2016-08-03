@@ -1,4 +1,4 @@
-define("views/modules/tasks", [], function() {
+define([], function() {
     var e = {
         rows: [{
             template: "<span class='webix_icon fa-tasks'></span>Pending Tasks",

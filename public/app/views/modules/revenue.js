@@ -1,4 +1,4 @@
-define("views/modules/revenue", [], function() {
+define([], function() {
     var e = {
         view: "chart",
         type: "line",

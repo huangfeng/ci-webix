@@ -1,4 +1,4 @@
-define("views/menus/sidebar", [], function() {
+define([], function() {
     return {
         $ui: {
             width: 200,

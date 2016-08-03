@@ -1,4 +1,4 @@
-define("views/menus/search", [], function() {
+define([], function() {
     return {
         $ui: {
             view: "popup",

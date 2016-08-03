@@ -1,4 +1,4 @@
-define("views/modules/editor", ["views/webix/ckeditor"], function() {
+define(["views/webix/ckeditor"], function() {
     var e = {
         view: "form",
         id: "mainView",

@@ -1,4 +1,4 @@
-define("models/files", [], function() {
+define([], function() {
     var e = [{
         id: "files",
         value: "Files",

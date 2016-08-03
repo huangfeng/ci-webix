@@ -1,4 +1,4 @@
-define("views/webix/googlemap", function() {});
+define(function() {});
 
 webix.protoUI({ name: "google-map",
     $init: function() {

@@ -1,4 +1,4 @@
-define("views/menus/mail", [], function() {
+define( [], function() {
     return {
         $ui: {
             view: "popup",

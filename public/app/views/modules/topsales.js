@@ -1,4 +1,4 @@
-define("views/modules/topsales", ["models/topsales"], function(e) {
+define(["models/topsales"], function(e) {
     var t = {
         view: "chart",
         borderless: !0,

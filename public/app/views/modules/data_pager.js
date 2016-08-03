@@ -1,4 +1,4 @@
-define("views/modules/data_pager", ["models/orders"], function(e) {
+define(["models/orders"], function(e) {
     var t = {
         view: "toolbar",
         css: "highlighted_header header5",

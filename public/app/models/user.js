@@ -1,4 +1,4 @@
-define("models/user", [], function() {
+define([], function() {
     function e(e, t) {
         if (!e) return session.logout().then(function() {
             a = null, document.location.reload()

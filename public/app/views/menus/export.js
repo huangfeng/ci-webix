@@ -1,4 +1,4 @@
-define("views/menus/export", [], function() {
+define([], function() {
     return {
         $ui: {
             view: "submenu",
