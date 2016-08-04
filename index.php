@@ -237,7 +237,8 @@ $public_folder = 'public';
 	define('SYSDIR', basename(BASEPATH));
 
 	// Path to the public asset directory
-	define('PUBPATH', $public_folder);
+	define('PUBPATH', $public_folder.DIRECTORY_SEPARATOR);
+	define('_ASSET_', $public_folder.'/asset/');
 
 	// The path to the "application" directory
 	if (is_dir($application_folder))

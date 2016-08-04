@@ -50,22 +50,20 @@ class Layout {
         $this->extends[$name] = $this->ci->load->view($tpl, $data, TRUE);
     }
 
-    public function add_includes($type, $file, $options = NULL, $prepend_base_url = TRUE) {
+    public function add_includes($data=array()) {
 
-        if($prepend_base_url) {
+        foreach ($data as $item) {
+            if(empty($item['src'])) continue;
+            if(!isset($item['preurl']) || $item['preurl']) {
+                $this->ci->load->helper('url');
+                $item['src'] = base_url() . $item['src'];
+            }
 
-            $this->ci->load->helper('url');
-            $file = base_url() . $file;
-
+            $this->includes[$item['type']][] = array(
+                'file' => $item['src'],
+                'options' => isset($item['options']) ? $item['options'] : ''
+            );
         }
-
-        $this->includes[$type][] = array(
-
-            'file' => $file,
-            'options' => $options
-
-        );
-
         // allows chaining
         return $this;
 

@@ -9,7 +9,7 @@
 function asset_url($uri)
 {
     $uri = trim($uri,"/");
-    return site_url(PUBPATH.'/asset/'.$uri);
+    return site_url(_ASSET_.$uri);
 }
 
 function theme_url(){
