@@ -1,1 +1,0 @@
-define("libs/almond", function() {})

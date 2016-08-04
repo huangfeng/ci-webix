@@ -178,7 +178,8 @@ switch (ENVIRONMENT)
  */
 	// $assign_to_config['name_of_config_item'] = 'value of config item';
 
-
+//Public Asset Directory
+$public_folder = 'public';
 
 // --------------------------------------------------------------------
 // END OF USER CONFIGURABLE SETTINGS.  DO NOT EDIT BELOW THIS LINE
@@ -234,6 +235,9 @@ switch (ENVIRONMENT)
 
 	// Name of the "system" directory
 	define('SYSDIR', basename(BASEPATH));
+
+	// Path to the public asset directory
+	define('PUBPATH', $public_folder);
 
 	// The path to the "application" directory
 	if (is_dir($application_folder))

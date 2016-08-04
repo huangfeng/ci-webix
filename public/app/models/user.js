@@ -10,9 +10,8 @@ define([], function() {
             language: "en",
             theme: "siberia:webix",
             notifications: 0
-        }), require(["helpers/locale", "helpers/theme"], function(e, i) {
-            t && (e.isNow(a.settings.language) && i.isNow(a.settings.theme) || document.location.reload()), e.setLang(a.settings.language, t), i.setTheme(a.settings.theme, t)
         })
+
     }
 
     function t() {

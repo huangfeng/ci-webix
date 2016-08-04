@@ -1,7 +1,7 @@
 define([
 	"libs/webix-jet/core",
 	"helpers/menu",
-	"helpers/locale", 
+	"helpers/locale",
 	"helpers/theme"
 ], function(core,menu,local,theme){
 

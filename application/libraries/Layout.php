@@ -21,6 +21,7 @@ class Layout {
     // holds the css and js files
     private $includes;
     private $layout_tpl = NULL;
+    private $extends = array();
 
     public function __construct() {
 
@@ -33,7 +34,7 @@ class Layout {
 
     }
 
-    public function set_tpl($layout)
+    public function set_layout($layout)
     {
         $this->layout_tpl = $layout;
     }
@@ -42,6 +43,11 @@ class Layout {
 
         $this->title = $title;
 
+    }
+
+    public function add_tpl($name='',$tpl='common/top',$data=array())
+    {
+        $this->extends[$name] = $this->ci->load->view($tpl, $data, TRUE);
     }
 
     public function add_includes($type, $file, $options = NULL, $prepend_base_url = TRUE) {
@@ -57,7 +63,6 @@ class Layout {
 
             'file' => $file,
             'options' => $options
-
 
         );
 
@@ -94,7 +99,7 @@ class Layout {
             'includes' => $this->includes,
             'content' => $view
 
-        ));
+        )+$this->extends);
 
     }
 
