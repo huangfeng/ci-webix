@@ -60,11 +60,7 @@
 <script>
     $.widget.bridge('uibutton', $.ui.button);
 </script>
-<script src="<?php echo asset_url('adminlte/dist/js/app.min.js')?>"></script>
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="<?php echo asset_url('adminlte/dist/js/pages/dashboard.js')?>"></script>
-<!-- AdminLTE for demo purposes -->
-<script src="<?php echo asset_url('adminlte/dist/js/demo.js')?>"></script>
+
 
 <!-- ./wrapper -->
 

@@ -7,7 +7,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @email		chaegumi@jeawin.com
  * @filesource
  */
-class Login extends CI_Controller {
+class Login extends MX_Controller {
 
 	public function __construct()
 	{
